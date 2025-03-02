@@ -10,5 +10,5 @@ int main (){
     int a = 5;
     int b = 10;
     swap(&a,&b);
-   printf("a = %d\nb = %d\n",a,b);
-} 
+   printf("a = %d\nb = %d\n",a,b);00000000000000000
+} 0
