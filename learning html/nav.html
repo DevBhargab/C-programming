@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .nav1{
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            padding: 10px;
+            border: 2px solid black;
+            cursor: pointer;
+        }
+        .nav2 ul{
+            display: flex;
+            flex-wrap: nowrap;
+            overflow: hidden;
+            list-style: none;
+        }
+        .nav2 li{
+            padding-left: 5px;
+        }
+        .btn{
+            background-color: blue;
+            color: aliceblue;
+            padding: 10px;
+            border-radius: 20%;
+        }
+    </style>
+    <div class="nav1">
+        <div>Logo</div>
+        <div class="nav2">
+            <ul>
+                <li>Home</li>
+                <li>About us</li>
+                <li>contact us</li>
+            </ul>
+        </div>
+        <div>
+            <button 
+            class="btn"
+            >login</button>
+        </div>
+    </div>
+</body>
+</html>

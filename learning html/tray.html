@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Virat Kohli - Profile</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background-color: #f4f6f8;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* Header / Navbar */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 40px;
+      background-color: #ffffff;
+      border-bottom: 1px solid #ddd;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    .navbar .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #2c3e50;
+    }
+
+    .navbar ul {
+      display: flex;
+      list-style: none;
+      gap: 25px;
+    }
+
+    .navbar li {
+      font-size: 1rem;
+      cursor: pointer;
+      transition: color 0.3s;
+    }
+
+    .navbar li:hover {
+      color: #0077ff;
+    }
+
+    .login-btn {
+      background-color: #0077ff;
+      color: white;
+      padding: 8px 20px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .login-btn:hover {
+      background-color: #005dc1;
+    }
+
+    /* Main Content */
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 40px 20px;
+      gap: 40px;
+      background-color: #ffffff;
+      margin: 30px auto;
+      max-width: 1200px;
+      border-radius: 10px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    }
+
+    .container img {
+      border-radius: 10px;
+      width: 100%;
+      max-width: 400px;
+      height: auto;
+    }
+
+    .content {
+      max-width: 600px;
+      color: #2c3e50;
+    }
+
+    .content p {
+      font-size: 1rem;
+      margin-bottom: 20px;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .navbar {
+        flex-direction: column;
+        gap: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header / Navbar -->
+  <header class="navbar">
+    <div class="logo">CricketFan</div>
+    <ul>
+      <li>Home</li>
+      <li>Contact</li>
+      <li>About</li>
+    </ul>
+    <button class="login-btn">Login</button>
+  </header>
+
+  <!-- Main Content -->
+  <section class="container">
+    <img src="./vk.jpg" alt="Virat Kohli" />
+    <div class="content">
+      <p>
+        Virat Kohli was born on 5th November 1988 in Delhi, into a Punjabi Hindu family.
+        His mother Saroj Kohli was a homemaker, and his father Prem Nath Kohli was a criminal lawyer.
+        Virat showed a passion for cricket at an early age and began playing at just 3 years old.
+      </p>
+      <p>
+        He joined the West Delhi Cricket Academy at the age of 9 and quickly rose through the ranks,
+        eventually representing Delhi in the Ranji Trophy. His breakthrough came in the U-19 World Cup,
+        leading to his international debut for India in August 2008.
+      </p>
+      <p>
+        Kohli became the face of Royal Challengers Bangalore (RCB) in the IPL and remains their highest run-scorer.
+        Despite not winning the IPL, he holds multiple records including the most centuries in ODIs.
+        He led India to numerous victories including the 2011 ODI World Cup and 2013 Champions Trophy.
+      </p>
+      <p>
+        With over 9000 runs in each format and a batting average above 50, Kohli is considered one of the greatest cricketers of all time.
+      </p>
+    </div>
+  </section>
+
+</body>
+</html>
